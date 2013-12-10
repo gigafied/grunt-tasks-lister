@@ -1,28 +1,43 @@
 {
   "name": "grunt-tasks-lister",
-  "version": "0.0.2",
-  "dependencies": {},
-  "devDependencies": {
-    "grunt": "~0.4.2"
-  },
-  "description": "grunt-tasks-lister ==================",
-  "main": "Gruntfile.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "A grunt task to show all tasks and multi task options.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/gigafied/grunt-tasks-lister",
+  "author": {
+    "name": "Taka Kojima",
+    "email": "taka@gigafied.com",
+    "url": "www.gigafied.com"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/gigafied/grunt-tasks-lister.git"
   },
-  "keywords": [
-    "grunt",
-    "tasks",
-    "list"
-  ],
-  "author": "gigafied",
-  "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/gigafied/grunt-tasks-lister/issues"
   },
-  "homepage": "https://github.com/gigafied/grunt-tasks-lister"
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/gigafied/grunt-tasks-lister/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.2"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.2"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
 }
