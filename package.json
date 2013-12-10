@@ -1,9 +1,28 @@
 {
   "name": "grunt-tasks-lister",
-  "version": "0.0.1",
-  "dependencies": {
-  },
+  "version": "0.0.2",
+  "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.2"
-  }
+  },
+  "description": "grunt-tasks-lister ==================",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gigafied/grunt-tasks-lister.git"
+  },
+  "keywords": [
+    "grunt",
+    "tasks",
+    "list"
+  ],
+  "author": "gigafied",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/gigafied/grunt-tasks-lister/issues"
+  },
+  "homepage": "https://github.com/gigafied/grunt-tasks-lister"
 }
